@@ -1,0 +1,364 @@
+{
+  "variant": "F",
+  "n_windows": 206,
+  "loss": {
+    "normal": {
+      "all": {
+        "loss": 0.7608785691195507,
+        "n": 304117
+      },
+      "long_range": {
+        "loss": 0.7351304681712156,
+        "n": 2192
+      }
+    },
+    "hide_sliding": {
+      "all": {
+        "loss": 0.7601413176517278,
+        "n": 304117
+      },
+      "long_range": {
+        "loss": 0.7268765861429887,
+        "n": 2192
+      }
+    },
+    "hide_all": {
+      "all": {
+        "loss": 0.7600783726595843,
+        "n": 304117
+      },
+      "long_range": {
+        "loss": 0.7269515473051391,
+        "n": 2192
+      }
+    }
+  },
+  "by_scope_offset": {
+    "normal": {
+      "0-15": {
+        "loss": 1.0265932250762397,
+        "n": 32352
+      },
+      "16-63": {
+        "loss": 0.837667774483369,
+        "n": 71806
+      },
+      "256+": {
+        "loss": 0.6841474191275971,
+        "n": 76242
+      },
+      "64-255": {
+        "loss": 0.7175972782714407,
+        "n": 102478
+      }
+    },
+    "hide_sliding": {
+      "0-15": {
+        "loss": 1.0258279635197933,
+        "n": 32352
+      },
+      "16-63": {
+        "loss": 0.8361882404531957,
+        "n": 71806
+      },
+      "256+": {
+        "loss": 0.6837075191949921,
+        "n": 76242
+      },
+      "64-255": {
+        "loss": 0.7170972498188516,
+        "n": 102478
+      }
+    },
+    "hide_all": {
+      "0-15": {
+        "loss": 1.0255807115222553,
+        "n": 32352
+      },
+      "16-63": {
+        "loss": 0.8360347260743431,
+        "n": 71806
+      },
+      "256+": {
+        "loss": 0.6836926013974228,
+        "n": 76242
+      },
+      "64-255": {
+        "loss": 0.7171117797229551,
+        "n": 102478
+      }
+    }
+  },
+  "attention": {
+    "full_attention": {
+      "sum": 0.005993572314227474,
+      "bos": 0.13733937309662944,
+      "far_raw": 0.0
+    },
+    "sliding_attention": {
+      "sum": 0.009649241148758914,
+      "bos": 0.011600148357672953,
+      "far_raw": 0.0
+    }
+  },
+  "attention_per_layer": [
+    {
+      "layer": 0,
+      "type": "sliding_attention",
+      "sum": 0.06541346005221318,
+      "bos": 0.02608320477732511,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 1,
+      "type": "sliding_attention",
+      "sum": 0.016372172512266667,
+      "bos": 0.007156617093130641,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 2,
+      "type": "sliding_attention",
+      "sum": 0.016247560233710198,
+      "bos": 0.0046738078696323725,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 3,
+      "type": "sliding_attention",
+      "sum": 0.015645696436448694,
+      "bos": 0.007186913900979182,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 4,
+      "type": "full_attention",
+      "sum": 0.010551589022579584,
+      "bos": 0.22870737391921173,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 5,
+      "type": "sliding_attention",
+      "sum": 0.014337341046200118,
+      "bos": 0.03036744257147308,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 6,
+      "type": "sliding_attention",
+      "sum": 0.04211943403746607,
+      "bos": 0.013471592293993277,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 7,
+      "type": "sliding_attention",
+      "sum": 0.018778929192038666,
+      "bos": 0.005642993684365541,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 8,
+      "type": "sliding_attention",
+      "sum": 0.0064609385402508955,
+      "bos": 0.00752227788086932,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 9,
+      "type": "full_attention",
+      "sum": 0.0064497019478173675,
+      "bos": 0.1152954518906009,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 10,
+      "type": "sliding_attention",
+      "sum": 0.009481732218458666,
+      "bos": 0.021698968148542296,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 11,
+      "type": "sliding_attention",
+      "sum": 0.00758558371602046,
+      "bos": 0.0013424671381656462,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 12,
+      "type": "sliding_attention",
+      "sum": 0.006027213993241223,
+      "bos": 0.003960591801606965,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 13,
+      "type": "sliding_attention",
+      "sum": 0.0038071744494292768,
+      "bos": 0.005340579168756581,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 14,
+      "type": "full_attention",
+      "sum": 0.002585262032416502,
+      "bos": 0.08060142669819809,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 15,
+      "type": "sliding_attention",
+      "sum": 0.002340832615905967,
+      "bos": 0.002459300380179336,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 16,
+      "type": "sliding_attention",
+      "sum": 0.0013409581714356577,
+      "bos": 0.002372556433664354,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 17,
+      "type": "sliding_attention",
+      "sum": 0.0011514615930020254,
+      "bos": 0.003514941497333001,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 18,
+      "type": "sliding_attention",
+      "sum": 0.0019164159408383752,
+      "bos": 0.003942781695107508,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 19,
+      "type": "full_attention",
+      "sum": 0.0014605518721834908,
+      "bos": 0.10112323974097907,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 20,
+      "type": "sliding_attention",
+      "sum": 0.002188522549037383,
+      "bos": 0.006509448840409462,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 21,
+      "type": "sliding_attention",
+      "sum": 0.0021922355621803408,
+      "bos": 0.008491271284705434,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 22,
+      "type": "sliding_attention",
+      "sum": 0.0018433009532715578,
+      "bos": 0.010065166144397671,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 23,
+      "type": "sliding_attention",
+      "sum": 0.003194914182068804,
+      "bos": 0.004852200076122745,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 24,
+      "type": "full_attention",
+      "sum": 0.0033111207367543622,
+      "bos": 0.08896869210113582,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 25,
+      "type": "sliding_attention",
+      "sum": 0.003256486853657488,
+      "bos": 0.014090618774211607,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 26,
+      "type": "sliding_attention",
+      "sum": 0.0031330525368674063,
+      "bos": 0.013763591952386071,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 27,
+      "type": "sliding_attention",
+      "sum": 0.003295708943706429,
+      "bos": 0.018720975024296142,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 28,
+      "type": "sliding_attention",
+      "sum": 0.004547400483289245,
+      "bos": 0.01564944073474607,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 29,
+      "type": "full_attention",
+      "sum": 0.006398168938785958,
+      "bos": 0.15218418004126522,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 30,
+      "type": "sliding_attention",
+      "sum": 0.003681647939888459,
+      "bos": 0.02181228678985681,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 31,
+      "type": "sliding_attention",
+      "sum": 0.0028179002877193014,
+      "bos": 0.02443107424279609,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 32,
+      "type": "sliding_attention",
+      "sum": 0.004810141715146532,
+      "bos": 0.02215505256777147,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 33,
+      "type": "sliding_attention",
+      "sum": 0.00619053540949049,
+      "bos": 0.017525991248018916,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 34,
+      "type": "full_attention",
+      "sum": 0.011198611649055055,
+      "bos": 0.1944952472850153,
+      "far_raw": 0.0
+    }
+  ],
+  "attention_missing_layers": 0,
+  "delta": {
+    "hide_sliding": {
+      "all": -0.0007372514678228859,
+      "long_range": -0.008253882028226966
+    },
+    "hide_all": {
+      "all": -0.000800196459966318,
+      "long_range": -0.008178920866076522
+    }
+  },
+  "checkpoint": "/kaggle/working/scopesum_runs/variant_F/final",
+  "minutes": 11.237298834323884
+}

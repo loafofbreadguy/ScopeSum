@@ -1,0 +1,364 @@
+{
+  "variant": "G",
+  "n_windows": 206,
+  "loss": {
+    "normal": {
+      "all": {
+        "loss": 0.7596992254632942,
+        "n": 304117
+      },
+      "long_range": {
+        "loss": 0.6940159301737039,
+        "n": 2192
+      }
+    },
+    "hide_sliding": {
+      "all": {
+        "loss": 0.7583924500849788,
+        "n": 304117
+      },
+      "long_range": {
+        "loss": 0.6933521320566307,
+        "n": 2192
+      }
+    },
+    "hide_all": {
+      "all": {
+        "loss": 0.7583205904692221,
+        "n": 304117
+      },
+      "long_range": {
+        "loss": 0.6897835642704344,
+        "n": 2192
+      }
+    }
+  },
+  "by_scope_offset": {
+    "normal": {
+      "0-15": {
+        "loss": 1.021036807019902,
+        "n": 32352
+      },
+      "16-63": {
+        "loss": 0.8352686124978694,
+        "n": 71806
+      },
+      "256+": {
+        "loss": 0.682967980515538,
+        "n": 76242
+      },
+      "64-255": {
+        "loss": 0.718882018380562,
+        "n": 102478
+      }
+    },
+    "hide_sliding": {
+      "0-15": {
+        "loss": 1.0192416803741289,
+        "n": 32352
+      },
+      "16-63": {
+        "loss": 0.8341549519277284,
+        "n": 71806
+      },
+      "256+": {
+        "loss": 0.6816450644421227,
+        "n": 76242
+      },
+      "64-255": {
+        "loss": 0.7175455047117172,
+        "n": 102478
+      }
+    },
+    "hide_all": {
+      "0-15": {
+        "loss": 1.019010458378185,
+        "n": 32352
+      },
+      "16-63": {
+        "loss": 0.834126985065839,
+        "n": 71806
+      },
+      "256+": {
+        "loss": 0.6817390523966851,
+        "n": 76242
+      },
+      "64-255": {
+        "loss": 0.7174201958118296,
+        "n": 102478
+      }
+    }
+  },
+  "attention": {
+    "full_attention": {
+      "sum": 0.006924414527574001,
+      "bos": 0.13313812821366172,
+      "far_raw": 0.0
+    },
+    "sliding_attention": {
+      "sum": 0.015197276188311869,
+      "bos": 0.01201522643644443,
+      "far_raw": 0.0
+    }
+  },
+  "attention_per_layer": [
+    {
+      "layer": 0,
+      "type": "sliding_attention",
+      "sum": 0.08667483587282775,
+      "bos": 0.024142798542754387,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 1,
+      "type": "sliding_attention",
+      "sum": 0.02382826449928781,
+      "bos": 0.007927208306403134,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 2,
+      "type": "sliding_attention",
+      "sum": 0.05728571530382948,
+      "bos": 0.005342121674805824,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 3,
+      "type": "sliding_attention",
+      "sum": 0.07414317841414411,
+      "bos": 0.007277279925745958,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 4,
+      "type": "full_attention",
+      "sum": 0.013961840941253321,
+      "bos": 0.18120172791862843,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 5,
+      "type": "sliding_attention",
+      "sum": 0.0248549709328948,
+      "bos": 0.03306526067758628,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 6,
+      "type": "sliding_attention",
+      "sum": 0.043396245167908055,
+      "bos": 0.013689635852195696,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 7,
+      "type": "sliding_attention",
+      "sum": 0.018278421580902468,
+      "bos": 0.006707260076449126,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 8,
+      "type": "sliding_attention",
+      "sum": 0.00959548293101277,
+      "bos": 0.010998396012148156,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 9,
+      "type": "full_attention",
+      "sum": 0.003757781753215932,
+      "bos": 0.1341251439000419,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 10,
+      "type": "sliding_attention",
+      "sum": 0.013260939434253969,
+      "bos": 0.02254826429835911,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 11,
+      "type": "sliding_attention",
+      "sum": 0.008211894186293391,
+      "bos": 0.0015313888013751369,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 12,
+      "type": "sliding_attention",
+      "sum": 0.009242832577428339,
+      "bos": 0.004083622586904735,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 13,
+      "type": "sliding_attention",
+      "sum": 0.0036545387526464197,
+      "bos": 0.0058285433320359814,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 14,
+      "type": "full_attention",
+      "sum": 0.0029397789021222065,
+      "bos": 0.07921115557352702,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 15,
+      "type": "sliding_attention",
+      "sum": 0.002160323211434167,
+      "bos": 0.002569804991312755,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 16,
+      "type": "sliding_attention",
+      "sum": 0.0013507112506881106,
+      "bos": 0.002392982519483211,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 17,
+      "type": "sliding_attention",
+      "sum": 0.0010737709846742993,
+      "bos": 0.0035241008276601965,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 18,
+      "type": "sliding_attention",
+      "sum": 0.0017085197542965746,
+      "bos": 0.003942961119517712,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 19,
+      "type": "full_attention",
+      "sum": 0.0012631053330456523,
+      "bos": 0.09930034056722119,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 20,
+      "type": "sliding_attention",
+      "sum": 0.002264508016726602,
+      "bos": 0.006672839268181799,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 21,
+      "type": "sliding_attention",
+      "sum": 0.001703900373514804,
+      "bos": 0.00860852732893697,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 22,
+      "type": "sliding_attention",
+      "sum": 0.002348033423419327,
+      "bos": 0.010267162289699363,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 23,
+      "type": "sliding_attention",
+      "sum": 0.003277146366721425,
+      "bos": 0.004914914623763087,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 24,
+      "type": "full_attention",
+      "sum": 0.003380035652017682,
+      "bos": 0.0877026805664574,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 25,
+      "type": "sliding_attention",
+      "sum": 0.0026789836627145055,
+      "bos": 0.014126390718215004,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 26,
+      "type": "sliding_attention",
+      "sum": 0.003239692076069461,
+      "bos": 0.013949359206957968,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 27,
+      "type": "sliding_attention",
+      "sum": 0.004470615718839777,
+      "bos": 0.018942112474246178,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 28,
+      "type": "sliding_attention",
+      "sum": 0.005150603432229111,
+      "bos": 0.01574240416787856,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 29,
+      "type": "full_attention",
+      "sum": 0.008175849692559554,
+      "bos": 0.1520179894161402,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 30,
+      "type": "sliding_attention",
+      "sum": 0.0035302853229103584,
+      "bos": 0.022449971688304312,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 31,
+      "type": "sliding_attention",
+      "sum": 0.002607351401387202,
+      "bos": 0.025048576364748082,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 32,
+      "type": "sliding_attention",
+      "sum": 0.006968634185733298,
+      "bos": 0.022256851751267133,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 33,
+      "type": "sliding_attention",
+      "sum": 0.008563334437943926,
+      "bos": 0.017875600793508178,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 34,
+      "type": "full_attention",
+      "sum": 0.014992509418803665,
+      "bos": 0.19840785955361592,
+      "far_raw": 0.0
+    }
+  ],
+  "attention_missing_layers": 0,
+  "delta": {
+    "hide_sliding": {
+      "all": -0.0013067753783153613,
+      "long_range": -0.0006637981170731777
+    },
+    "hide_all": {
+      "all": -0.0013786349940720921,
+      "long_range": -0.004232365903269475
+    }
+  },
+  "checkpoint": "/kaggle/working/scopesum_runs/variant_G/final",
+  "minutes": 11.447959705193837
+}

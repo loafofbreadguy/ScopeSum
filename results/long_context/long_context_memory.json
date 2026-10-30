@@ -1,0 +1,323 @@
+{
+ "window": 512,
+ "sum_rates": {
+  "raw_tokens": 10001649,
+  "windows": 6967,
+  "C": 0.004941485149098914,
+  "F": 0.005989012411853285,
+  "B": 0.004935986055899382,
+  "G": 0.0057810467053982795,
+  "signatures": 0.08249969580016256,
+  "separators": 0.24005601476316554
+ },
+ "rows": [
+  {
+   "N": 2048,
+   "setting": "A: Gemma default (no <sum>)",
+   "tokens": 2048,
+   "sum_tokens": 0,
+   "kv_sliding": 512,
+   "kv_full": 2048,
+   "kv_mb": 18.0,
+   "reads_per_token": 28672.0,
+   "reads_prefill": 40384512.0
+  },
+  {
+   "N": 2048,
+   "setting": "F: standard mask (full layers see all)",
+   "tokens": 2060.2654974194757,
+   "sum_tokens": 12.265497419475528,
+   "kv_sliding": 524.2654974194755,
+   "kv_full": 2060.2654974194757,
+   "kv_mb": 18.215604446826717,
+   "reads_per_token": 29101.292409681642,
+   "reads_prefill": 40824322.073718846
+  },
+  {
+   "N": 2048,
+   "setting": "F: restrict_full (every layer: last W + <sum>)",
+   "tokens": 2060.2654974194757,
+   "sum_tokens": 12.265497419475528,
+   "kv_sliding": 524.2654974194755,
+   "kv_full": 524.2654974194755,
+   "kv_mb": 9.215604446826717,
+   "reads_per_token": 18349.292409681642,
+   "reads_prefill": 32561410.073718842
+  },
+  {
+   "N": 2048,
+   "setting": "G: standard mask (full layers see all)",
+   "tokens": 2059.8395836526556,
+   "sum_tokens": 11.839583652655676,
+   "kv_sliding": 523.8395836526556,
+   "kv_full": 2059.8395836526556,
+   "kv_mb": 18.208117681394334,
+   "reads_per_token": 29086.385427842946,
+   "reads_prefill": 40809049.8708251
+  },
+  {
+   "N": 2048,
+   "setting": "G: restrict_full (every layer: last W + <sum>)",
+   "tokens": 2059.8395836526556,
+   "sum_tokens": 11.839583652655676,
+   "kv_sliding": 523.8395836526556,
+   "kv_full": 523.8395836526556,
+   "kv_mb": 9.208117681394338,
+   "reads_per_token": 18334.385427842946,
+   "reads_prefill": 32546137.870825097
+  },
+  {
+   "N": 2048,
+   "setting": "F + signatures: restrict_full",
+   "tokens": 2060.2654974194757,
+   "sum_tokens": 12.265497419475528,
+   "kv_sliding": 693.2248744182084,
+   "kv_full": 693.2248744182084,
+   "kv_mb": 12.18559349563257,
+   "reads_per_token": 24262.87060463729,
+   "reads_prefill": 38619870.93445091
+  },
+  {
+   "N": 2048,
+   "setting": "S: restrict_full (SepLLM-style separators)",
+   "tokens": 2048.0,
+   "sum_tokens": 0.0,
+   "kv_sliding": 1003.634718234963,
+   "kv_full": 1003.634718234963,
+   "kv_mb": 17.64201653147396,
+   "reads_per_token": 35127.215138223706,
+   "reads_prefill": 49750391.90911019
+  },
+  {
+   "N": 8192,
+   "setting": "A: Gemma default (no <sum>)",
+   "tokens": 8192,
+   "sum_tokens": 0,
+   "kv_sliding": 512,
+   "kv_full": 8192,
+   "kv_mb": 54.0,
+   "reads_per_token": 71680.0,
+   "reads_prefill": 348687360.0
+  },
+  {
+   "N": 8192,
+   "setting": "F: standard mask (full layers see all)",
+   "tokens": 8241.061989677903,
+   "sum_tokens": 49.06198967790211,
+   "kv_sliding": 561.0619896779021,
+   "kv_full": 8241.061989677903,
+   "kv_mb": 54.862417787306875,
+   "reads_per_token": 73397.16963872658,
+   "reads_prefill": 355721745.42504346
+  },
+  {
+   "N": 8192,
+   "setting": "F: restrict_full (every layer: last W + <sum>)",
+   "tokens": 8241.061989677903,
+   "sum_tokens": 49.06198967790211,
+   "kv_sliding": 561.0619896779021,
+   "kv_full": 561.0619896779021,
+   "kv_mb": 9.862417787306875,
+   "reads_per_token": 19637.169638726577,
+   "reads_prefill": 149256465.42504343
+  },
+  {
+   "N": 8192,
+   "setting": "G: standard mask (full layers see all)",
+   "tokens": 8239.358334610622,
+   "sum_tokens": 47.358334610622705,
+   "kv_sliding": 559.3583346106227,
+   "kv_full": 8239.358334610622,
+   "kv_mb": 54.832470725577345,
+   "reads_per_token": 73337.5417113718,
+   "reads_prefill": 355477479.62063456
+  },
+  {
+   "N": 8192,
+   "setting": "G: restrict_full (every layer: last W + <sum>)",
+   "tokens": 8239.358334610622,
+   "sum_tokens": 47.358334610622705,
+   "kv_sliding": 559.3583346106227,
+   "kv_full": 559.3583346106227,
+   "kv_mb": 9.832470725577352,
+   "reads_per_token": 19577.541711371796,
+   "reads_prefill": 149012199.62063456
+  },
+  {
+   "N": 8192,
+   "setting": "F + signatures: restrict_full",
+   "tokens": 8241.061989677903,
+   "sum_tokens": 49.06198967790211,
+   "kv_sliding": 1236.8994976728338,
+   "kv_full": 1236.8994976728338,
+   "kv_mb": 21.74237398253028,
+   "reads_per_token": 43291.48241854919,
+   "reads_prefill": 246156357.72758675
+  },
+  {
+   "N": 8192,
+   "setting": "S: restrict_full (SepLLM-style separators)",
+   "tokens": 8192.0,
+   "sum_tokens": 0.0,
+   "kv_sliding": 2478.538872939852,
+   "kv_full": 2478.538872939852,
+   "kv_mb": 43.56806612589583,
+   "reads_per_token": 86748.86055289482,
+   "reads_prefill": 424179507.25493366
+  },
+  {
+   "N": 32768,
+   "setting": "A: Gemma default (no <sum>)",
+   "tokens": 32768,
+   "sum_tokens": 0,
+   "kv_sliding": 512,
+   "kv_full": 32768,
+   "kv_mb": 198.0,
+   "reads_per_token": 243712.0,
+   "reads_prefill": 4224310272.0
+  },
+  {
+   "N": 32768,
+   "setting": "F: standard mask (full layers see all)",
+   "tokens": 32964.24795871161,
+   "sum_tokens": 196.24795871160845,
+   "kv_sliding": 708.2479587116085,
+   "kv_full": 32964.24795871161,
+   "kv_mb": 201.4496711492275,
+   "reads_per_token": 250580.6785549063,
+   "reads_prefill": 4336850135.782863
+  },
+  {
+   "N": 32768,
+   "setting": "F: restrict_full (every layer: last W + <sum>)",
+   "tokens": 32964.24795871161,
+   "sum_tokens": 196.24795871160845,
+   "kv_sliding": 708.2479587116085,
+   "kv_full": 708.2479587116085,
+   "kv_mb": 12.449671149227491,
+   "reads_per_token": 24788.678554906295,
+   "reads_prefill": 695163863.7828622
+  },
+  {
+   "N": 32768,
+   "setting": "G: standard mask (full layers see all)",
+   "tokens": 32957.43333844249,
+   "sum_tokens": 189.43333844249082,
+   "kv_sliding": 701.4333384424908,
+   "kv_full": 32957.43333844249,
+   "kv_mb": 201.32988290230938,
+   "reads_per_token": 250342.16684548717,
+   "reads_prefill": 4332942240.679884
+  },
+  {
+   "N": 32768,
+   "setting": "G: restrict_full (every layer: last W + <sum>)",
+   "tokens": 32957.43333844249,
+   "sum_tokens": 189.43333844249082,
+   "kv_sliding": 701.4333384424908,
+   "kv_full": 701.4333384424908,
+   "kv_mb": 12.329882902309409,
+   "reads_per_token": 24550.16684548718,
+   "reads_prefill": 691255968.6798847
+  },
+  {
+   "N": 32768,
+   "setting": "F + signatures: restrict_full",
+   "tokens": 32964.24795871161,
+   "sum_tokens": 196.24795871160845,
+   "kv_sliding": 3411.5979906913353,
+   "kv_full": 3411.5979906913353,
+   "kv_mb": 59.969495930121134,
+   "reads_per_token": 119405.92967419674,
+   "reads_prefill": 2245420214.7468762
+  },
+  {
+   "N": 32768,
+   "setting": "S: restrict_full (SepLLM-style separators)",
+   "tokens": 32768.0,
+   "sum_tokens": 0.0,
+   "kv_sliding": 8378.155491759408,
+   "kv_full": 8378.155491759408,
+   "kv_mb": 147.27226450358333,
+   "reads_per_token": 293235.4422115793,
+   "reads_prefill": 5093529862.915622
+  },
+  {
+   "N": 131072,
+   "setting": "A: Gemma default (no <sum>)",
+   "tokens": 131072,
+   "sum_tokens": 0,
+   "kv_sliding": 512,
+   "kv_full": 131072,
+   "kv_mb": 774.0,
+   "reads_per_token": 931840.0,
+   "reads_prefill": 62005386240.0
+  },
+  {
+   "N": 131072,
+   "setting": "F: standard mask (full layers see all)",
+   "tokens": 131856.99183484644,
+   "sum_tokens": 784.9918348464338,
+   "kv_sliding": 1296.991834846434,
+   "kv_full": 131856.99183484644,
+   "kv_mb": 787.79868459691,
+   "reads_per_token": 959314.7142196252,
+   "reads_prefill": 63805982848.45446
+  },
+  {
+   "N": 131072,
+   "setting": "F: restrict_full (every layer: last W + <sum>)",
+   "tokens": 131856.99183484644,
+   "sum_tokens": 784.9918348464338,
+   "kv_sliding": 1296.991834846434,
+   "kv_full": 1296.991834846434,
+   "kv_mb": 22.798684596909972,
+   "reads_per_token": 45394.71421962518,
+   "reads_prefill": 4144828288.454466
+  },
+  {
+   "N": 131072,
+   "setting": "G: standard mask (full layers see all)",
+   "tokens": 131829.73335376996,
+   "sum_tokens": 757.7333537699633,
+   "kv_sliding": 1269.7333537699633,
+   "kv_full": 131829.73335376996,
+   "kv_mb": 787.3195316092375,
+   "reads_per_token": 958360.6673819487,
+   "reads_prefill": 63743457957.87709
+  },
+  {
+   "N": 131072,
+   "setting": "G: restrict_full (every layer: last W + <sum>)",
+   "tokens": 131829.73335376996,
+   "sum_tokens": 757.7333537699633,
+   "kv_sliding": 1269.7333537699633,
+   "kv_full": 1269.7333537699633,
+   "kv_mb": 22.319531609237636,
+   "reads_per_token": 44440.66738194872,
+   "reads_prefill": 4082303397.8770823
+  },
+  {
+   "N": 131072,
+   "setting": "F + signatures: restrict_full",
+   "tokens": 131856.99183484644,
+   "sum_tokens": 784.9918348464338,
+   "kv_sliding": 12110.391962765341,
+   "kv_full": 12110.391962765341,
+   "kv_mb": 212.87798372048454,
+   "reads_per_token": 423863.71869678696,
+   "reads_prefill": 28948362200.371975
+  },
+  {
+   "N": 131072,
+   "setting": "S: restrict_full (SepLLM-style separators)",
+   "tokens": 131072.0,
+   "sum_tokens": 0.0,
+   "kv_sliding": 31976.621967037634,
+   "kv_full": 31976.621967037634,
+   "kv_mb": 562.0890580143334,
+   "reads_per_token": 1119181.7688463172,
+   "reads_prefill": 74517073593.99667
+  }
+ ]
+}

@@ -1,0 +1,7 @@
+{
+  "variant": "F",
+  "steps": 130,
+  "examples_seen": 2080,
+  "heldout_loss": 2.0552151585627176,
+  "heldout_tokens": 99657
+}

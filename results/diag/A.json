@@ -1,0 +1,298 @@
+{
+  "variant": "A",
+  "n_windows": 206,
+  "loss": {
+    "normal": {
+      "all": {
+        "loss": 0.7219787870652745,
+        "n": 304117
+      },
+      "long_range": {
+        "loss": 0.31767065235921366,
+        "n": 2192
+      }
+    }
+  },
+  "by_scope_offset": {
+    "normal": {
+      "0-15": {
+        "loss": 0.9774051954288118,
+        "n": 32352
+      },
+      "16-63": {
+        "loss": 0.7978918740713112,
+        "n": 71806
+      },
+      "256+": {
+        "loss": 0.6448507453814599,
+        "n": 76242
+      },
+      "64-255": {
+        "loss": 0.6883419604668214,
+        "n": 102478
+      }
+    }
+  },
+  "attention": {
+    "full_attention": {
+      "sum": 0.0,
+      "bos": 0.10389111935695963,
+      "far_raw": 0.3583151158198108
+    },
+    "sliding_attention": {
+      "sum": 0.0,
+      "bos": 0.0,
+      "far_raw": 0.0
+    }
+  },
+  "attention_per_layer": [
+    {
+      "layer": 0,
+      "type": "sliding_attention",
+      "sum": 0.0,
+      "bos": 0.0,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 1,
+      "type": "sliding_attention",
+      "sum": 0.0,
+      "bos": 0.0,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 2,
+      "type": "sliding_attention",
+      "sum": 0.0,
+      "bos": 0.0,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 3,
+      "type": "sliding_attention",
+      "sum": 0.0,
+      "bos": 0.0,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 4,
+      "type": "full_attention",
+      "sum": 0.0,
+      "bos": 0.15427117463152723,
+      "far_raw": 0.3294223948785935
+    },
+    {
+      "layer": 5,
+      "type": "sliding_attention",
+      "sum": 0.0,
+      "bos": 0.0,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 6,
+      "type": "sliding_attention",
+      "sum": 0.0,
+      "bos": 0.0,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 7,
+      "type": "sliding_attention",
+      "sum": 0.0,
+      "bos": 0.0,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 8,
+      "type": "sliding_attention",
+      "sum": 0.0,
+      "bos": 0.0,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 9,
+      "type": "full_attention",
+      "sum": 0.0,
+      "bos": 0.08758872403334861,
+      "far_raw": 0.308204602928801
+    },
+    {
+      "layer": 10,
+      "type": "sliding_attention",
+      "sum": 0.0,
+      "bos": 0.0,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 11,
+      "type": "sliding_attention",
+      "sum": 0.0,
+      "bos": 0.0,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 12,
+      "type": "sliding_attention",
+      "sum": 0.0,
+      "bos": 0.0,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 13,
+      "type": "sliding_attention",
+      "sum": 0.0,
+      "bos": 0.0,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 14,
+      "type": "full_attention",
+      "sum": 0.0,
+      "bos": 0.06356485751310097,
+      "far_raw": 0.25683981524277444
+    },
+    {
+      "layer": 15,
+      "type": "sliding_attention",
+      "sum": 0.0,
+      "bos": 0.0,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 16,
+      "type": "sliding_attention",
+      "sum": 0.0,
+      "bos": 0.0,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 17,
+      "type": "sliding_attention",
+      "sum": 0.0,
+      "bos": 0.0,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 18,
+      "type": "sliding_attention",
+      "sum": 0.0,
+      "bos": 0.0,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 19,
+      "type": "full_attention",
+      "sum": 0.0,
+      "bos": 0.07935302439570649,
+      "far_raw": 0.3427934273661182
+    },
+    {
+      "layer": 20,
+      "type": "sliding_attention",
+      "sum": 0.0,
+      "bos": 0.0,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 21,
+      "type": "sliding_attention",
+      "sum": 0.0,
+      "bos": 0.0,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 22,
+      "type": "sliding_attention",
+      "sum": 0.0,
+      "bos": 0.0,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 23,
+      "type": "sliding_attention",
+      "sum": 0.0,
+      "bos": 0.0,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 24,
+      "type": "full_attention",
+      "sum": 0.0,
+      "bos": 0.06719082138835829,
+      "far_raw": 0.3799143245988274
+    },
+    {
+      "layer": 25,
+      "type": "sliding_attention",
+      "sum": 0.0,
+      "bos": 0.0,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 26,
+      "type": "sliding_attention",
+      "sum": 0.0,
+      "bos": 0.0,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 27,
+      "type": "sliding_attention",
+      "sum": 0.0,
+      "bos": 0.0,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 28,
+      "type": "sliding_attention",
+      "sum": 0.0,
+      "bos": 0.0,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 29,
+      "type": "full_attention",
+      "sum": 0.0,
+      "bos": 0.11493403019185838,
+      "far_raw": 0.43778865608201123
+    },
+    {
+      "layer": 30,
+      "type": "sliding_attention",
+      "sum": 0.0,
+      "bos": 0.0,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 31,
+      "type": "sliding_attention",
+      "sum": 0.0,
+      "bos": 0.0,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 32,
+      "type": "sliding_attention",
+      "sum": 0.0,
+      "bos": 0.0,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 33,
+      "type": "sliding_attention",
+      "sum": 0.0,
+      "bos": 0.0,
+      "far_raw": 0.0
+    },
+    {
+      "layer": 34,
+      "type": "full_attention",
+      "sum": 0.0,
+      "bos": 0.1603352033448175,
+      "far_raw": 0.45324258964154973
+    }
+  ],
+  "attention_missing_layers": 0,
+  "checkpoint": "/kaggle/input/scopesum-diag-inputs/scopesum_runs/variant_A/final",
+  "minutes": 6.411669711271922
+}

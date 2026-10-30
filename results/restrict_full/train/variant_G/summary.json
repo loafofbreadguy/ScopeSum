@@ -1,0 +1,7 @@
+{
+  "variant": "G",
+  "steps": 130,
+  "examples_seen": 2080,
+  "heldout_loss": 2.0476002310728534,
+  "heldout_tokens": 99657
+}

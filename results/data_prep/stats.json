@@ -1,0 +1,35 @@
+{
+  "n_examples": 6967,
+  "raw_tokens_total": 10001649,
+  "scope_sums_total": 49423,
+  "fixed_sums_total": 49368,
+  "chunk_size": 223,
+  "avg_scope_len": 202.36831030087205,
+  "avg_scope_sums_per_example": 7.093871106645615,
+  "avg_fixed_sums_per_example": 7.085976747524042,
+  "relative_count_gap": -0.001112842198976185,
+  "files": {
+    "seen": 5262,
+    "kept": 2164,
+    "too_short": 2836,
+    "no_parse": 215,
+    "excluded": {
+      "repo": 30
+    },
+    "raw_tokens": {
+      "train": 10001649,
+      "heldout": 101448
+    }
+  },
+  "seq_len": 2048,
+  "max_raw_per_window": 1791,
+  "scope_examples_truncated": 0,
+  "max_scope_sums_per_example": 69,
+  "bos_id": 2,
+  "sum_id": 6,
+  "pad_id": 0,
+  "n_windows": {
+    "train": 6967,
+    "heldout": 65
+  }
+}
