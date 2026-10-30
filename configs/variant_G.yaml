@@ -1,0 +1,6 @@
+# Variant G: fixed chunks like B, with K fitted so G inserts the same total
+# number of <sum> tokens as F (58,536 F vs 57,820 G on the 6,967 training
+# windows, W = 512). The F-vs-G pair is matched on <sum> count and on KV.
+variant:
+  id: G
+  chunk_size: 180

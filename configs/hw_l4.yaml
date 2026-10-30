@@ -1,0 +1,4 @@
+# Kaggle L4 (24 GB): bfloat16.
+model:
+  dtype: bfloat16
+  attn_implementation: sdpa

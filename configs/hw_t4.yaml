@@ -1,0 +1,6 @@
+# Kaggle T4 x2 (16 GB each): float16 only. Uncomment load_in_4bit for E4B.
+model:
+  dtype: float16
+  attn_implementation: sdpa
+  # load_in_4bit: true
+  # device_map: auto

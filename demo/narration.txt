@@ -1,0 +1,12 @@
+Can a small model read long code better if we give it summaries? We tested this on Google's Gemma 4, adding a learned summary token at the end of every function and class.
+Every model variant gets exactly the same input: a real bug report from SWE-bench Lite, and matplotlib's widgets file with one hundred eighty-five functions. Each model ranks which function needs the fix.
+The baseline Gemma puts the right function second, just behind the constructor.
+Adding scope summary tokens gives the same answer.
+With scope windows, where each token mostly sees its own function plus the summaries, the model finds the bug at number one.
+Adding call edges between the summaries also puts it first.
+Fixed-size chunks put it second again. Across all nineteen bugs, no variant clearly beats the baseline.
+Then we removed Gemma's shortcut, so every layer sees only the last five hundred twelve tokens. Long-range loss more than doubles. Distant code really matters, and the summaries do not bring it back.
+Keeping each function's signature visible helps a little, and the gain comes from the signatures, not the summaries.
+Keeping every separator token, the way SepLLM does, works best of all the restricted models. But it needs about twenty-four times the memory of the summaries.
+So what did we achieve? We retrofitted summary tokens into Gemma 4 without changing its vocabulary, and we found exactly why the model ignores them: its global layers already read distant code directly. Our memory design shrinks the cache thirty-four times at a hundred twenty-eight thousand tokens, at a measured cost in accuracy. Scope summaries describe functions far better than fixed chunks. And all twenty training runs, with two seeds each, ran on free Kaggle GPUs.
+The lesson: for code, keeping the right real tokens beats learned summaries. Thanks for watching.

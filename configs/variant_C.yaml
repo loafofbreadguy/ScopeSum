@@ -1,0 +1,3 @@
+# Variant C (main): one <sum> at the end of each scope; same local mask rule as B.
+variant:
+  id: C

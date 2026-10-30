@@ -1,0 +1,20 @@
+# Pinned libraries whose APIs the code depends on.
+# transformers 5.18.0: the Gemma 4 mask hook in scopesum/model.py was written
+# against src/transformers/models/gemma4/modeling_gemma4.py of this exact tag.
+transformers==5.18.0
+peft==0.21.2
+accelerate==1.15.0
+datasets==5.0.1
+bitsandbytes==0.50.2
+huggingface-hub>=1.31.0,<3.0
+kagglehub>=1.0.0
+pyyaml>=6.0
+pytest>=8.0
+
+# Already installed on Kaggle images; not pinned so pip does not replace the
+# CUDA-matched builds. Minimum versions only.
+torch>=2.6
+numpy>=1.26
+matplotlib>=3.8
+scikit-learn>=1.4
+pandas>=2.0

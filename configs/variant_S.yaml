@@ -1,0 +1,5 @@
+# Variant S: SepLLM-style baseline (Chen et al., 2024). No <sum> tokens; raw queries see
+# BOS, the last W raw tokens and every earlier separator token (whitespace and . , ? ! ; :).
+# Use with variant.restrict_full: true so the full-attention layers follow the same rule.
+variant:
+  id: S

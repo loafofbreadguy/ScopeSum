@@ -1,0 +1,4 @@
+# Variant E: D + <sum> -> callee <sum> edges (regex call graph; competition graphs at eval).
+variant:
+  id: E
+  w_small: 64

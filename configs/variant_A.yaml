@@ -1,0 +1,3 @@
+# Variant A: baseline (model default attention, no <sum> tokens).
+variant:
+  id: A

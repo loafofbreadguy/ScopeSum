@@ -1,0 +1,4 @@
+# Variant B: one <sum> every K raw tokens; local layers see BOS + last W raw + earlier <sum>.
+# K is read from stats.json (fairness: same total <sum> count as C).
+variant:
+  id: B

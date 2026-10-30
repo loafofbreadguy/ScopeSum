@@ -1,0 +1,6 @@
+# Variant F: C with long scopes split (at line starts) into parts of span <= W,
+# so local-layer KV is bounded like B. Same local mask rule as B/C.
+# Examples are built from the saved windows on first use (data.extra_dir).
+variant:
+  id: F
+  scope_span: null      # null = W (the sliding window)

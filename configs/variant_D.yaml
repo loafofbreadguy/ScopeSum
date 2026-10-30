@@ -1,0 +1,4 @@
+# Variant D: C + scope windows (own scope raw + enclosing headers + last w_small + earlier <sum>).
+variant:
+  id: D
+  w_small: 64

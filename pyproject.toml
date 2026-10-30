@@ -1,0 +1,12 @@
+[project]
+name = "scopesum"
+version = "0.1.0"
+description = "Scope-aligned summary tokens for code LLMs (Gemma 4)"
+requires-python = ">=3.10"
+
+[tool.setuptools]
+packages = ["scopesum"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
